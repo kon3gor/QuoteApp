@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--  Light mode colors -->
+    <color name="textLightColor">#261E2C</color>
+    <color name="bgLightColor">#EFE3D8</color>
+    <color name="statusBarLightColor">#90202022</color>
+    <color name="btnLightColor">#04DD5A</color>
+
+
+    <!-- Dark mode colors-->
+    <color name="textDarkColor">#EFECE8</color>
+    <color name="bgDarkColor">#202022</color>
+    <color name="btnDarkColor">#259552</color>
+
+</resources>

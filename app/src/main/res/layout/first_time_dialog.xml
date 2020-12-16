@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_margin="20dp"
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/andada"
+            android:text="This app does nothing except showing you a new quote every day. So, have fun!"
+            />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_bg"
+            android:backgroundTint="@color/btnDarkColor"
+            android:textColor="@color/bgDarkColor"
+            android:layout_marginTop="5dp"
+            android:text="Okay"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
